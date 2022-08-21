@@ -1,4 +1,4 @@
-package cn.test.chapter03.higher.reflect;
+package cn.test.chapter03.higher.Reflect;
 
 import lombok.Getter;
 import lombok.Setter;

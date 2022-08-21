@@ -1,4 +1,4 @@
-package cn.test.chapter03.higher.reflect;
+package cn.test.chapter03.higher.Reflect;
 
 /**
  * @author zhangjun
@@ -37,7 +37,7 @@ public class ReflectTest1 {
         System.out.println(c2);
 
         //通过Class类的静态方法Class.forName获取stu的字节码文件
-        Class<Student> c3 = (Class<Student>) Class.forName("cn.test.chapter03.higher.reflect.Student");
+        Class<Student> c3 = (Class<Student>) Class.forName("cn.test.chapter03.higher.Reflect.Student");
         System.out.println(c2);
 
         /**
