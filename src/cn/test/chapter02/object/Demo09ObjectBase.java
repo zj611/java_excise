@@ -20,19 +20,17 @@ public class Demo09ObjectBase {
     Integer的默认值是null，int的默认值是0
     Integer实际是对象的引用，当new一个Integer时，实际上是生成一个指针指向此对象；而int则是直接存储数据值
  **/
-    public class Student{  // mac的control+enter快捷键，可以快速生成get和set方法
-    private Integer Age; //设置为私有类型
-    String Name;
+    public static class Student1{  // mac的control+enter快捷键，可以快速生成get和set方法
+        private Integer Age; //设置为私有类型
+        String Name;
 
-    public Integer getAge() {
-        return Age;
-    }
+        public Integer getAge() {
+            return Age;
+        }
 
-    public void setAge(Integer age) {
-        Age = age;
-    }
-
-
+        public void setAge(Integer age) {
+            Age = age;
+        }
     }
 
     public static class Car{
@@ -53,12 +51,9 @@ public class Demo09ObjectBase {
             this.price = price;
         };
 
-
         public void run(){
             System.out.println("color:" + color + " "+"price:" + price);
         }
     }
-
-
 }
 
